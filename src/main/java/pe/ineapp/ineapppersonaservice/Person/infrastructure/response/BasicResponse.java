@@ -36,7 +36,7 @@ public class BasicResponse {
     public static BasicResponse whenNoDataFound(){
         return BasicResponse.builder()
                 .code(404)
-                .message("No data found")
+                .message("No data found pero si sale")
                 .build();
     }
 
